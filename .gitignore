@@ -1,0 +1,17 @@
+# Dependencies and build artifacts
+node_modules/
+dist/
+.vite/
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# Logs and editor/OS files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+coverage/
